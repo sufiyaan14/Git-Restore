@@ -38,9 +38,9 @@ def quiz_game():
     if score == len(questions):
         print("🏆 Excellent! You got all correct!")
     elif score > len(questions) // 2:
-        print("👍 Good job!")
+        print("Good job!")
     else:
-        print("📚 Keep practicing!")
+        print("Keep practicing!")
 
 if __name__ == "__main__":
     quiz_game()
